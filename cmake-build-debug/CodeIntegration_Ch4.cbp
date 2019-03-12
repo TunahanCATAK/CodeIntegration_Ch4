@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CodeIntegration_Ch4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CodeIntegration_Ch4">
+				<Option output="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/CodeIntegration_Ch4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/header"/>
+					<Add directory="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/header/dzn"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodeIntegration_Ch4"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CodeIntegration_Ch4/fast">
+				<Option output="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/CodeIntegration_Ch4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/header"/>
+					<Add directory="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/header/dzn"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodeIntegration_Ch4/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/src/AlarmSystem.cc">
+			<Option target="CodeIntegration_Ch4"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/src/Controller.cc">
+			<Option target="CodeIntegration_Ch4"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/src/ILED.cc">
+			<Option target="CodeIntegration_Ch4"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/src/IPwdManager.cc">
+			<Option target="CodeIntegration_Ch4"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/src/ISiren.cc">
+			<Option target="CodeIntegration_Ch4"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/src/LED.cc">
+			<Option target="CodeIntegration_Ch4"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/src/PwdManager.cc">
+			<Option target="CodeIntegration_Ch4"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/src/Siren.cc">
+			<Option target="CodeIntegration_Ch4"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/src/Timer.cc">
+			<Option target="CodeIntegration_Ch4"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/src/main.cpp">
+			<Option target="CodeIntegration_Ch4"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/src/pump.cc">
+			<Option target="CodeIntegration_Ch4"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/src/runtime.cc">
+			<Option target="CodeIntegration_Ch4"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/tunahan.catak/CLionProjects/CodeIntegration_Ch4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,13 +1,14 @@
 import ILED.dzn;
 import Timer.dzn;
 import ISiren.dzn;
+import IPwdManager.dzn;
 
 interface IController {
-  in void validPincode();
+  in void passwordEnterred(String pwd);
   in void sensorTriggered();
 
   behaviour {
-    on validPincode: {}
+    on passwordEnterred: {}
     on sensorTriggered: {}
   }
 }
@@ -17,23 +18,30 @@ component Controller {
   requires ITimer iTimer;
   requires ISiren iSiren;
   requires ILED iLed;
+  requires IPwdManager iPwdManager;
 
   behaviour {
     enum State { Unarmed, Armed, Alarming };
     State state = State.Unarmed;
 
     [state.Unarmed] {
-      on iController.validPincode(): {
-        state = State.Armed;
-        iLed.setYellow();
+      on iController.passwordEnterred(pwd): {
+      	bool valid = iPwdManager.verifyPassword(pwd);
+      	if (valid){
+      		state = State.Armed;
+        	iLed.setYellow();
+      	}
       }
       on iController.sensorTriggered(): {}
       on iTimer.timeout(): illegal;
     }
     [state.Armed] {
-      on iController.validPincode(): {
-        state = State.Unarmed;
-        iLed.setGreen();
+      on iController.passwordEnterred(pwd): {
+      	bool valid = iPwdManager.verifyPassword(pwd);
+      	if (valid) {
+     		state = State.Unarmed;
+        	iLed.setGreen();     		
+      	}
       }
       on iController.sensorTriggered(): {
       	state = State.Alarming;
@@ -43,11 +51,14 @@ component Controller {
       on iTimer.timeout(): illegal;
     }
     [state.Alarming] {
-      on iController.validPincode(): {
-        state = State.Armed;
-        iLed.setYellow();
-        iSiren.turnOff();
-        iTimer.cancel();
+      on iController.passwordEnterred(pwd): {
+      	bool valid = iPwdManager.verifyPassword(pwd);
+      	if (valid) {
+	        state = State.Armed;
+	        iLed.setYellow();
+	        iSiren.turnOff();
+	        iTimer.cancel();
+      	}
       }
       on iController.sensorTriggered(): {}
       on iTimer.timeout(): {

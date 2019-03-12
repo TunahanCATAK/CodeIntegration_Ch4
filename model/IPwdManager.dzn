@@ -1,0 +1,14 @@
+extern String $std::string$;
+
+interface IPwdManager {
+	in bool verifyPassword(String pwd);
+	
+	behaviour {
+		on verifyPassword: reply(true);
+		on verifyPassword: reply(false);
+	}
+}
+
+component PwdManager {
+	provides IPwdManager iPwdManager;
+}

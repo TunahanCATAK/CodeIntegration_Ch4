@@ -2,6 +2,7 @@ import Controller.dzn;
 import ILED.dzn;
 import Timer.dzn;
 import ISiren.dzn;
+import IPwdManager.dzn;
 
 component AlarmSystem {
 	provides IController iController;
@@ -11,10 +12,12 @@ component AlarmSystem {
 		Controller controller;
 		LED led;
 		Siren siren;
+		PwdManager pManager;
 		
 		iController <=> controller.iController;
 		controller.iLed <=> led.iLed;
 		controller.iTimer <=> iTimer;
 		controller.iSiren <=> siren.iSiren;
+		controller.iPwdManager <=> pManager.iPwdManager;
 	}
 }

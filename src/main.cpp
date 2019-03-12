@@ -5,6 +5,7 @@
 #include <string>
 #include <unistd.h>
 #include <signal.h>
+#include <Controller.hh>
 
 #include "Timer.hh"
 #include "AlarmSystem.hh"
@@ -38,8 +39,8 @@ int main() {
         if(input.compare("s") == 0) {
             as.iController.in.sensorTriggered();
         }
-        else if(input.compare("v") == 0) {
-            as.iController.in.validPincode();
+        else {
+            as.iController.in.passwordEnterred(input);
         }
     }
 

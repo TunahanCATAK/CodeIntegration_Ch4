@@ -8,8 +8,5 @@ PwdManager::PwdManager(const dzn::locator &loc) : skel::PwdManager(loc){
 }
 
 bool PwdManager::iPwdManager_verifyPassword(std::string pwd) {
-    if (!pwd.compare("1234")){
-        return true;
-    }
-    else return false;
+    return (pwd.compare(this->Pass) == 0);
 }
